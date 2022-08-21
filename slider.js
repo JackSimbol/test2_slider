@@ -2,7 +2,7 @@ const sliderEl = document.querySelector("#slider-input")
 
 const selectedEl = document.querySelector(".selected")
 
-sliderEl.addEventListener("change", () => { //根据滑块值修改填写值
+sliderEl.addEventListener("input", () => { //根据滑块值修改填写值
     selectedEl.innerHTML = sliderEl.value;
 });
 
