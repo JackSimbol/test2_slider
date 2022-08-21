@@ -7,7 +7,7 @@ sliderEl.addEventListener("input", () => { //根据滑块值修改填写值
 });
 
 selectedEl.addEventListener("input", () =>{ //根据输入修改滑块值
-    sliderEl.innerHTML = selectedEl.value;  
+    sliderEl.value = selectedEl.value;  
 })
 
 /*
